@@ -1,7 +1,8 @@
 streamlit
 pandas
 scikit-learn
-matplotlib.pyplot
+matplotlib
 base64
 os
 datetime
+
