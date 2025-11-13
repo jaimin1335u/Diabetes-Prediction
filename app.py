@@ -213,7 +213,7 @@ else:
         col1, col2 = st.columns(2)
         
         with col1:
-            preg = st.number_input("Pregnancies", min_value=0, max_value=20, value=0, step=1)
+            preg = st.number_input("Pregnancies", min_value=0, max_value=5, value=0, step=1)
             gluc = st.number_input("Glucose", min_value=0.0, max_value=300.0, value=120.0, step=0.1)
             bp = st.number_input("Blood Pressure (mm Hg)", min_value=0.0, max_value=200.0, value=70.0, step=0.1)
             skin = st.number_input("Skin Thickness (mm)", min_value=0.0, max_value=100.0, value=20.0, step=0.1)
@@ -406,3 +406,4 @@ else:
             ax.set_ylabel(y_feat)
             ax.legend()
             st.pyplot(fig)
+
